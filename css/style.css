@@ -70,10 +70,10 @@ line-height: 22px;
 
  }  /*секция промо*/
 .promo-block{
-    background: #fff1b8 url ("../img/promo.png") no-repeat right;
+    background: #fff1b8 url("../img/promo.png") no-repeat right;
     border: radius 10px;
     padding: 68px 71px;
-    filter: drop-shadow(0px 7px 12px reba (158,158,163,0.1));
+    filter: drop-shadow(0px 7px 12px rgba (158,158,163,0.1));
 }
 .text-block {
     max-width: 520px;
