@@ -1,10 +1,13 @@
 font-family:SFProDisplay;
-src:url(../fonts/SFProDisplay-Regular.ttf);
+src:url(../fonts/SFProDisplay-Bold.ttf);
 /*src:url(../fonts/SFProDisplay-Bold.ttf);*/
 * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+}
+html {
+    font-family:font-family: 'Roboto', sans-serif; ;
 }
 .block {
     display: flex;
@@ -26,7 +29,7 @@ padding: 0;
     background: url("../img/home.svg") no-repeat 10px center;
     border: 1px solid #D9D9D9;
     border-radius: 2px;
-    padding: 32px;
+    padding-left: 32px;
 }
 .adress-input ::placeholder {
 font-style: normal;
@@ -37,6 +40,9 @@ color: #bfbfbf;
 .buttons {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 200px;
+    width: 100%;
 }    
 .button {
 padding: 8px 16px;
@@ -45,7 +51,7 @@ align-items: center;
 border-radius: 2px;
 border:none;
 cursor: pointer;
-font-family: SF Pro Display;
+font-family: SFProDisplay-Bold;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
