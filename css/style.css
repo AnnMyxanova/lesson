@@ -135,6 +135,8 @@ line-height: 22px;
     margin-bottom: 30px;
     background-color: #ffffff;
     border-radius:7px;
+    text-decoration: none;
+    color: black;
 }
 .input {
     border:1px solid #090909;
