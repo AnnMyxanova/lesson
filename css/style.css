@@ -88,9 +88,9 @@ line-height: 22px;
     margin-bottom: 56px;
 }
  .promo-block{
-    background: #fff1b8 url("../img/promo.png") no-repeat right;
+    background:#fff1b8 url("../img/promo.png") no-repeat right;
     border-radius:10px;     
-    padding: 68px 71px;
+    padding:68px 71px;
     filter: drop-shadow(0px 7px 12px rgba (158,158,163,0.1));
 }
 .text-block {
@@ -116,7 +116,7 @@ line-height: 22px;
     color: #302c34;
 }
 .section-rest {
-    margin-bottom: 91px;
+    margin-bottom:91px;
 }
 .section__header {
     display:flex;
@@ -125,7 +125,7 @@ line-height: 22px;
     margin-bottom:44px;
 } 
 .search-input {
-    max-width: 306px;
+    max-width:306px;
     height: 34px;
     background: url("../img/search.cvg")no-repit 10px center;
 }
@@ -135,8 +135,8 @@ line-height: 22px;
     margin-bottom: 30px;
     background-color: #ffffff;
     border-radius:7px;
-    text-decoration: none;
-    color: black;
+    text-decoration:none;
+    color:black;
 }
 .input {
     border:1px solid #090909;
