@@ -1,14 +1,14 @@
-@font-face{
-font-family:SFProDisplay;
-src:url(../fonts/SFProDisplay-Regular.ttf);
-src:url(../fonts/SFProDisplay-Bold.ttf);
-/*src:url(../fonts/SFProDisplay-Bold.ttf);*/
-}
+@font-face {
+    font-family:SFProDisplay;
+    src:url(../fonts/SFProDisplay-Regular.ttf);
+    src:url(../fonts/SFProDisplay-Bold.ttf);
+    /*src:url(../fonts/SFProDisplay-Bold.ttf);*/
+    }
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
 html {
     font-family:'Roboto',sans-serif; 
 }
@@ -21,7 +21,7 @@ body {
     align-items:center;
 }
 .cards {
-  flex-wrap: wrap;  
+    flex-wrap: wrap;  
 }
 .container {
     max-width: 1200px;
@@ -61,17 +61,17 @@ body {
     width: 100%;
 }    
 .button {
-padding: 8px 16px;
-display: flex;
-align-items: center;
-border-radius: 2px;
-border:none;
-cursor: pointer;
-font-family: SFProDisplay-Bold;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 22px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+    font-family: SFProDisplay-Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
  }
  .button--primary {
     background: #1890ff;
